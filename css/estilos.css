@@ -1,0 +1,194 @@
+body {
+	background-color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+hr {
+	display:none;
+}
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left
+}
+.center {
+	text-align: center;
+}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+#centro {
+	background-image: url(../images/layout_01.jpg);
+	position:relative;
+	height: 374px;
+	margin-top: 50px;
+	background-repeat: repeat-x;
+	width: 100%;
+}
+#topo {
+	background-image: url(../images/menu.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px 0px 0px;
+	width:775px;
+	height: 164px;
+	background-position: right;
+	text-align: right;
+}
+#corpo {
+	padding: 0px;
+	width:775px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000000;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5F7485;
+}
+#texto {
+	text-align: justify;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0px 20px;
+	padding-right: 50px;
+	width:450px;
+	padding-top: 0px;
+}
+#rodape {
+	clear:both;
+	background-image: url(../images/rodape.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+#rodape p {
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	font-size:10px;
+}
+#rodape a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#rodape a:hover {
+	text-decoration:underline;
+}
+#corpo img {
+	background-color: #FFFFFF;
+	padding: 5px;
+	margin:3px;
+	}
+#menu {
+	position: absolute;
+	background-image: url(../images/topo_inicial.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+h1 {
+	font:30px "Trebuchet MS";
+	color: #5F7C8C;
+	text-transform:lowercase;
+}
+#fotos {
+	margin: 20px 0px 20px 30px;
+	padding: 0px;
+}
+#fotos_mini {
+	margin: 20px 0px 20px 23px;
+	padding: 0px;
+	}
+#fotos_mini img {
+	margin-left:7px;
+	float:left;
+	}
+#contato {
+	margin-right: auto;
+	margin-left: auto;
+	width: 500px;
+}
+#contato input, #contato textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #000000;
+	border: 1px solid #CCCCCC;
+	width: 300px;
+}
+#novidades {
+	margin-right: auto;
+	margin-left: auto;
+	width: 450px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+	text-align: justify;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.fotografo {
+	margin-left: 40px;
+	margin-top: 40px;
+}
+#grade_fotos {
+	position:relative;
+	width:520px;
+	margin-bottom:80px;
+	margin-left:200px;
+}
+#eventos  ul a {
+	color: #FFFFFF;
+	text-decoration:none;
+	list-style:none;
+	text-transform:lowercase;
+}
+#eventos ul a:hover {
+	color:#5F7C8C;
+}
+#eventos {
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	margin-bottom:150px;
+}
+#eventos ul {
+	list-style-type: square;
+}
+.ampliar {
+	background-repeat: no-repeat;
+}
