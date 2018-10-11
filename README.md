@@ -10,3 +10,5 @@
 ## Live Demo 
 
 https://naldo-santiago.000webhostapp.com/
+
+![screenshot](design/02-bio.jpg)
