@@ -6,4 +6,3 @@
 * CSS
 * JavaScript
 * PHP
-
